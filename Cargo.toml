@@ -1,0 +1,21 @@
+[package]
+name = "ppq-blink"
+version = "0.1.0"
+edition = "2024"
+description = "Rust client for topping up ppq.ai credits via Blink Wallet Lightning payments"
+license = "MIT"   # ← Recommended open-source license
+repository = "https://github.com/olatunbosunoyeleke94/ppq-blink"
+keywords = ["ppq", "blink", "lightning", "bitcoin", "ai"]
+categories = ["api-bindings", "cryptography::cryptocurrencies"]
+readme = "README.md"
+
+
+[dependencies]
+async-openai = "0.24"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenvy = "0.15"
+
