@@ -4,11 +4,11 @@ A Rust crate for topping up ppq.ai (pay-per-query AI) credits using Blink Wallet
 
 ## Screenshot
 
-![ppq.ai Top-up using LN invoice](screenshots/Top-Up-using-LN-invoice.png)
+![ppq.ai Balance on Homepage](screenshots/balance-in-ppq-homepage.png)
 
-![ppq.ai Balance in PPQ homepage](screenshots/Balance-in-PPQ-homepage.png)
+![ppq.ai Top-Up with Lightning Invoice](screenshots/top-up-using-ln-invoice.png)
 
-![ppq.ai Transaction History](screenshots/Transaction-History-on-PPQ.png)
+![ppq.ai Transaction History](screenshots/transaction-history-on-ppq.png)
 
 ## Features
 
